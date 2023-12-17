@@ -1,0 +1,66 @@
+body{
+    background-color: rgb(51, 70, 68);
+    width: 100%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    background-color:rgb(210, 243, 237);
+    border-radius:10px;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 650px;
+    background-color:rgb(210, 243, 237);
+    border-radius:10px;
+    color: black;   
+}
+
+.container-radio{
+    color: black;
+    text-align: center;
+    float: none;
+}
+
+.container-radio div{
+    padding: 10px;
+}
+
+form label{
+    color:rgb(211, 243, 255);
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+form input{
+    border-radius: 10px;
+    border: 3px solid #ffd95cf8;
+    padding: 10px;
+    margin-bottom: 10px;
+    transition: 0.5s;
+}
+
+form input[type='file']{
+    color: white;
+}
+
+form input::file-selector-button{
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+
+form input:focus{
+    border: 3px solid #216ead7e;
+    outline: none;
+}
